@@ -23,6 +23,11 @@ class Note:
 
 
 class Notebook:
+    def __init__(self):
+        self.notes = []
+
+    def add_note(self, title: str, text: str, importance: str):
+
 
 
 
